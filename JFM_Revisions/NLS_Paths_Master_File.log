@@ -1,0 +1,558 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.5.18)  28 DEC 2017 17:40
+entering extended mode
+**C:/Users/Chris/Desktop/nls_path_project_Git_Clone/JFM_Revisions/NLS_Paths_Mas
+ter_File.tex
+
+(C:/Users/Chris/Desktop/nls_path_project_Git_Clone/JFM_Revisions/NLS_Paths_Mast
+er_File.tex
+LaTeX2e <2015/10/01> patch level 2
+Babel <3.9n> and hyphenation patterns for 69 languages loaded.
+(JFM_Style/jfm.cls
+
+LaTeX Warning: You have requested document class `JFM_Style/jfm',
+               but the document class provides `jfm'.
+
+Document Class: jfm 2006/11/13 v1.27 Journal of Fluid Mechanics document class
+
+("C:\Users\Chris\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\graphicx.
+sty"
+Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+
+("C:\Users\Chris\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\keyval.st
+y"
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+("C:\Users\Chris\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\graphics.
+sty"
+Package: graphics 2014/10/28 v1.0p Standard LaTeX Graphics (DPC,SPQR)
+
+("C:\Users\Chris\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\trig.sty"
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+("C:\Users\Chris\AppData\Local\Programs\MiKTeX 2.9\tex\latex\00miktex\graphics.
+cfg"
+File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
+)
+Package graphics Info: Driver file: pdftex.def on input line 94.
+
+("C:\Users\Chris\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pdftex-def\pdftex.
+def"
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+("C:\Users\Chris\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\infware
+rr.sty"
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+("C:\Users\Chris\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds
+.sty"
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count79
+))
+\Gin@req@height=\dimen102
+\Gin@req@width=\dimen103
+)
+("C:\Users\Chris\AppData\Local\Programs\MiKTeX 2.9\tex\latex\etoolbox\etoolbox.
+sty"
+Package: etoolbox 2017/01/02 v2.4 e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count80
+)
+LaTeX Info: Redefining \textsfbi on input line 184.
+LaTeX Font Info:    Redeclaring math alphabet \mathsfbi on input line 184.
+LaTeX Font Info:    Overwriting math alphabet `\mathsfbi' in version `normal'
+(Font)                  OT1/cmss/m/sl --> T1/phv/b/it on input line 184.
+LaTeX Font Info:    Overwriting math alphabet `\mathsfbi' in version `bold'
+(Font)                  OT1/cmss/m/sl --> T1/phv/b/it on input line 184.
+LaTeX Info: Redefining \textsfbi on input line 188.
+LaTeX Font Info:    Redeclaring math alphabet \mathsfbi on input line 188.
+LaTeX Font Info:    Overwriting math alphabet `\mathsfbi' in version `normal'
+(Font)                  T1/phv/b/it --> OT1/phv/b/it on input line 188.
+LaTeX Font Info:    Overwriting math alphabet `\mathsfbi' in version `bold'
+(Font)                  T1/phv/b/it --> OT1/phv/b/it on input line 188.
+\halflineskip=\skip41
+\affilskip=\skip42
+\c@part=\count81
+\c@section=\count82
+\c@subsection=\count83
+\c@subsubsection=\count84
+\c@paragraph=\count85
+\@indentskip=\skip43
+\smallindent=\skip44
+\@footindent=\skip45
+\@leftskip=\skip46
+\proofbox=\box26
+\rpbdim=\skip47
+\@stequation=\toks15
+\c@subequation=\count86
+\c@table=\count87
+\c@figure=\count88
+LaTeX Info: Redefining \cite on input line 1157.
+\astrutbox=\box27
+
+
+Found the 'amsbsy' package on the system, using it.
+
+("C:\Users\Chris\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty
+"
+Package: amsbsy 1999/11/29 v1.2d
+
+("C:\Users\Chris\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty
+"
+File: amsgen.sty 1999/11/30 v2.0
+\@emptytoks=\toks16
+\ex@=\dimen104
+)
+\pmbraise@=\dimen105
+)
+
+
+Found AMS Euler Roman fonts on the system, but you dont seem to have the
+'upmath' package installed. JFM.cls can take advantage of these fonts,
+if you use 'upmath' package.
+
+
+
+
+Found AMS Symbol fonts on the system, using the 'amssymb' package.
+
+
+("C:\Users\Chris\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\amssymb.s
+ty"
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+("C:\Users\Chris\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\amsfonts.
+sty"
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+)))
+("C:\Users\Chris\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\epstopdf.
+sty"
+Package: epstopdf 2010/02/09 v2.5 Conversion with epstopdf on the fly (HO)
+
+("C:\Users\Chris\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-
+base.sty"
+Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
+
+("C:\Users\Chris\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\grfext.st
+y"
+Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
+
+("C:\Users\Chris\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\kvdefin
+ekeys.sty"
+Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
+))
+("C:\Users\Chris\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\kvoptions
+.sty"
+Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
+
+("C:\Users\Chris\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\kvsetke
+ys.sty"
+Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
+
+("C:\Users\Chris\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\etexcmd
+s.sty"
+Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
+
+("C:\Users\Chris\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\ifluate
+x.sty"
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+("C:\Users\Chris\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\pdftexc
+mds.sty"
+Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+("C:\Users\Chris\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.s
+ty"
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 452.
+))
+("C:\Users\Chris\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\epsfig.st
+y"
+Package: epsfig 1999/02/16 v1.7a (e)psfig emulation (SPQR)
+\epsfxsize=\dimen106
+\epsfysize=\dimen107
+)
+("C:\Users\Chris\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsmath.st
+y"
+Package: amsmath 2013/01/14 v2.14 AMS math features
+\@mathmargin=\skip48
+
+For additional information on amsmath, use the `?' option.
+
+("C:\Users\Chris\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amstext.st
+y"
+Package: amstext 2000/06/29 v2.01
+)
+("C:\Users\Chris\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty
+"
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count89
+LaTeX Info: Redefining \frac on input line 210.
+\uproot@=\count90
+\leftroot@=\count91
+LaTeX Info: Redefining \overline on input line 306.
+\classnum@=\count92
+\DOTSCASE@=\count93
+LaTeX Info: Redefining \ldots on input line 378.
+LaTeX Info: Redefining \dots on input line 381.
+LaTeX Info: Redefining \cdots on input line 466.
+\Mathstrutbox@=\box28
+\strutbox@=\box29
+\big@size=\dimen108
+LaTeX Font Info:    Redeclaring font encoding OML on input line 566.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
+\macc@depth=\count94
+\c@MaxMatrixCols=\count95
+\dotsspace@=\muskip10
+\c@parentequation=\count96
+\dspbrk@lvl=\count97
+\tag@help=\toks17
+\row@=\count98
+\column@=\count99
+\maxfields@=\count100
+\andhelp@=\toks18
+\eqnshift@=\dimen109
+\alignsep@=\dimen110
+\tagshift@=\dimen111
+\tagwidth@=\dimen112
+\totwidth@=\dimen113
+\lineht@=\dimen114
+\@envbody=\toks19
+\multlinegap=\skip49
+\multlinetaggap=\skip50
+\mathdisplay@stack=\toks20
+LaTeX Info: Redefining \[ on input line 2665.
+LaTeX Info: Redefining \] on input line 2666.
+)
+("C:\Users\Chris\AppData\Local\Programs\MiKTeX 2.9\tex\latex\natbib\natbib.sty"
+Package: natbib 2010/09/13 8.31b (PWD, AO)
+\bibhang=\skip51
+\bibsep=\skip52
+LaTeX Info: Redefining \cite on input line 694.
+\c@NAT@ctr=\count101
+) (NLS_Paths_Master_File.aux)
+\openout1 = `NLS_Paths_Master_File.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+
+("C:\Users\Chris\AppData\Local\Programs\MiKTeX 2.9\tex\context\base\supp-pdf.mk
+ii"
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count102
+\scratchdimen=\dimen115
+\scratchbox=\box30
+\nofMPsegments=\count103
+\nofMParguments=\count104
+\everyMPshowfont=\toks21
+\MPscratchCnt=\count105
+\MPscratchDim=\dimen116
+\MPnumerator=\count106
+\makeMPintoPDFobject=\count107
+\everyMPtoPDFconversion=\toks22
+)
+LaTeX Font Info:    Try loading font information for U+msa on input line 60.
+ ("C:\Users\Chris\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 60.
+ ("C:\Users\Chris\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+Underfull \hbox (badness 10000) has occurred while \output is active
+
+ []
+
+[1{C:/Users/Chris/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
+Non-PDF special ignored!] [2] [3] [4] [5] [6] [7]
+<foc_defoc_pos_cut.pdf, id=43, 697.60625pt x 483.8075pt>
+File: foc_defoc_pos_cut.pdf Graphic file (type pdf)
+
+<use foc_defoc_pos_cut.pdf>
+Package pdftex.def Info: foc_defoc_pos_cut.pdf used on input line 338.
+(pdftex.def)             Requested size: 184.31836pt x 127.8245pt.
+
+<foc_defoc_neg_cut.pdf, id=44, 697.60625pt x 483.8075pt>
+File: foc_defoc_neg_cut.pdf Graphic file (type pdf)
+
+<use foc_defoc_neg_cut.pdf>
+Package pdftex.def Info: foc_defoc_neg_cut.pdf used on input line 338.
+(pdftex.def)             Requested size: 184.31836pt x 127.8245pt.
+ [8] [9 <./foc_defoc_pos_cut.pdf> <./foc_defoc_neg_cut.pdf>] [10] [11] [12] [13
+]
+<us_magnitude.pdf, id=82, 697.60625pt x 483.8075pt>
+File: us_magnitude.pdf Graphic file (type pdf)
+ <use us_magnitude.pdf>
+Package pdftex.def Info: us_magnitude.pdf used on input line 600.
+(pdftex.def)             Requested size: 184.31836pt x 127.8245pt.
+
+[14] <us_wide_range.pdf, id=86, 697.60625pt x 483.8075pt>
+File: us_wide_range.pdf Graphic file (type pdf)
+
+<use us_wide_range.pdf>
+Package pdftex.def Info: us_wide_range.pdf used on input line 610.
+(pdftex.def)             Requested size: 122.88281pt x 85.22125pt.
+ <us_n1_to_1pt1.pdf, id=87, 697.60625pt x 483.8075pt>
+File: us_n1_to_1pt1.pdf Graphic file (type pdf)
+
+<use us_n1_to_1pt1.pdf>
+Package pdftex.def Info: us_n1_to_1pt1.pdf used on input line 610.
+(pdftex.def)             Requested size: 122.88281pt x 85.22125pt.
+ <us_1pt2_to_4.pdf, id=88, 697.60625pt x 483.8075pt>
+File: us_1pt2_to_4.pdf Graphic file (type pdf)
+
+<use us_1pt2_to_4.pdf>
+Package pdftex.def Info: us_1pt2_to_4.pdf used on input line 610.
+(pdftex.def)             Requested size: 122.88281pt x 85.22125pt.
+
+Overfull \hbox (2.64844pt too wide) in paragraph at lines 609--613
+ [][] 
+ []
+
+
+Underfull \vbox (badness 7273) has occurred while \output is active []
+
+ [15 <./us_magnitude.pdf> <./us_wide_range.pdf> <./us_n1_to_1pt1.pdf> <./us_1pt
+2_to_4.pdf>] <zero_return_shear.pdf, id=132, 721.69624pt x 439.6425pt>
+File: zero_return_shear.pdf Graphic file (type pdf)
+
+<use zero_return_shear.pdf>
+Package pdftex.def Info: zero_return_shear.pdf used on input line 634.
+(pdftex.def)             Requested size: 211.20117pt x 128.66031pt.
+ [16 <./zero_return_shear.pdf>]
+
+LaTeX Warning: Reference `nlssurfexpan' on page 17 undefined on input line 666.
+
+
+<amp_factor_k0_1_wide_range.pdf, id=146, 697.60625pt x 483.8075pt>
+File: amp_factor_k0_1_wide_range.pdf Graphic file (type pdf)
+
+<use amp_factor_k0_1_wide_range.pdf>
+Package pdftex.def Info: amp_factor_k0_1_wide_range.pdf used on input line 680.
+
+(pdftex.def)             Requested size: 122.88281pt x 85.22125pt.
+
+<amp_factor_k0_1_n1_to_1pt12.pdf, id=147, 721.69624pt x 483.8075pt>
+File: amp_factor_k0_1_n1_to_1pt12.pdf Graphic file (type pdf)
+
+<use amp_factor_k0_1_n1_to_1pt12.pdf>
+Package pdftex.def Info: amp_factor_k0_1_n1_to_1pt12.pdf used on input line 680
+.
+(pdftex.def)             Requested size: 122.88281pt x 82.37167pt.
+
+<amp_factor_k0_1_1pt2_to_4.pdf, id=148, 697.60625pt x 483.8075pt>
+File: amp_factor_k0_1_1pt2_to_4.pdf Graphic file (type pdf)
+
+<use amp_factor_k0_1_1pt2_to_4.pdf>
+Package pdftex.def Info: amp_factor_k0_1_1pt2_to_4.pdf used on input line 680.
+(pdftex.def)             Requested size: 122.88281pt x 85.22125pt.
+
+Overfull \hbox (2.64844pt too wide) in paragraph at lines 679--683
+ [][] 
+ []
+
+[17 <./amp_factor_k0_1_wide_range.pdf> <./amp_factor_k0_1_n1_to_1pt12.pdf> <./a
+mp_factor_k0_1_1pt2_to_4.pdf>]
+<track_ep_pt1_tf_1_w_0_kap_pt5_foc.pdf, id=207, 721.69624pt x 439.6425pt>
+File: track_ep_pt1_tf_1_w_0_kap_pt5_foc.pdf Graphic file (type pdf)
+
+<use track_ep_pt1_tf_1_w_0_kap_pt5_foc.pdf>
+Package pdftex.def Info: track_ep_pt1_tf_1_w_0_kap_pt5_foc.pdf used on input li
+ne 706.
+(pdftex.def)             Requested size: 184.31836pt x 112.27841pt.
+
+<track_ep_pt1_tf_1_w_1pt12_kap_pt5_foc.pdf, id=208, 721.69624pt x 439.6425pt>
+File: track_ep_pt1_tf_1_w_1pt12_kap_pt5_foc.pdf Graphic file (type pdf)
+
+<use track_ep_pt1_tf_1_w_1pt12_kap_pt5_foc.pdf>
+Package pdftex.def Info: track_ep_pt1_tf_1_w_1pt12_kap_pt5_foc.pdf used on inpu
+t line 706.
+(pdftex.def)             Requested size: 184.31836pt x 112.27841pt.
+
+<track_ep_pt1_tf_1_w_n1_kap_pt5_foc.pdf, id=209, 721.69624pt x 439.6425pt>
+File: track_ep_pt1_tf_1_w_n1_kap_pt5_foc.pdf Graphic file (type pdf)
+
+<use track_ep_pt1_tf_1_w_n1_kap_pt5_foc.pdf>
+Package pdftex.def Info: track_ep_pt1_tf_1_w_n1_kap_pt5_foc.pdf used on input l
+ine 708.
+(pdftex.def)             Requested size: 184.31836pt x 112.27841pt.
+
+<track_ep_pt1_tf_1_w_0_kap_pt99_foc.pdf, id=210, 721.69624pt x 439.6425pt>
+File: track_ep_pt1_tf_1_w_0_kap_pt99_foc.pdf Graphic file (type pdf)
+
+<use track_ep_pt1_tf_1_w_0_kap_pt99_foc.pdf>
+Package pdftex.def Info: track_ep_pt1_tf_1_w_0_kap_pt99_foc.pdf used on input l
+ine 719.
+(pdftex.def)             Requested size: 184.31836pt x 112.27841pt.
+
+<track_ep_pt1_tf_1_w_1pt12_kap_pt99_foc.pdf, id=211, 721.69624pt x 483.8075pt>
+File: track_ep_pt1_tf_1_w_1pt12_kap_pt99_foc.pdf Graphic file (type pdf)
+
+<use track_ep_pt1_tf_1_w_1pt12_kap_pt99_foc.pdf>
+Package pdftex.def Info: track_ep_pt1_tf_1_w_1pt12_kap_pt99_foc.pdf used on inp
+ut line 719.
+(pdftex.def)             Requested size: 184.31836pt x 123.55753pt.
+
+<track_ep_pt1_tf_1_w_n1_kap_pt99_foc.pdf, id=212, 721.69624pt x 439.6425pt>
+File: track_ep_pt1_tf_1_w_n1_kap_pt99_foc.pdf Graphic file (type pdf)
+
+<use track_ep_pt1_tf_1_w_n1_kap_pt99_foc.pdf>
+Package pdftex.def Info: track_ep_pt1_tf_1_w_n1_kap_pt99_foc.pdf used on input 
+line 721.
+(pdftex.def)             Requested size: 184.31836pt x 112.27841pt.
+
+<track_ep_pt1_tf_1_w_1pt704_kap_pt5_foc.pdf, id=213, 721.69624pt x 439.6425pt>
+File: track_ep_pt1_tf_1_w_1pt704_kap_pt5_foc.pdf Graphic file (type pdf)
+
+<use track_ep_pt1_tf_1_w_1pt704_kap_pt5_foc.pdf>
+Package pdftex.def Info: track_ep_pt1_tf_1_w_1pt704_kap_pt5_foc.pdf used on inp
+ut line 735.
+(pdftex.def)             Requested size: 184.31836pt x 112.27841pt.
+
+<track_ep_pt1_tf_1_w_1pt668_kap_pt99_foc.pdf, id=214, 721.69624pt x 439.6425pt>
+File: track_ep_pt1_tf_1_w_1pt668_kap_pt99_foc.pdf Graphic file (type pdf)
+<use track_ep_pt1_tf_1_w_1pt668_kap_pt99_foc.pdf>
+Package pdftex.def Info: track_ep_pt1_tf_1_w_1pt668_kap_pt99_foc.pdf used on in
+put line 735.
+(pdftex.def)             Requested size: 184.31836pt x 112.27841pt.
+
+<om_val_1pt7_k0_1_ep_pt1_defoc_ztrack_pwave.pdf, id=215, 697.60625pt x 483.8075
+pt>
+File: om_val_1pt7_k0_1_ep_pt1_defoc_ztrack_pwave.pdf Graphic file (type pdf)
+ <use om_val_1pt7_k0_1_ep_pt1_defoc_ztrack_pwave.pdf>
+Package pdftex.def Info: om_val_1pt7_k0_1_ep_pt1_defoc_ztrack_pwave.pdf used on
+ input line 744.
+(pdftex.def)             Requested size: 184.31836pt x 127.8245pt.
+ [18]
+<om_val_1pt17_k0_1_ep_pt1_defoc_ztrack.pdf, id=219, 697.60625pt x 483.8075pt>
+File: om_val_1pt17_k0_1_ep_pt1_defoc_ztrack.pdf Graphic file (type pdf)
+
+<use om_val_1pt17_k0_1_ep_pt1_defoc_ztrack.pdf>
+Package pdftex.def Info: om_val_1pt17_k0_1_ep_pt1_defoc_ztrack.pdf used on inpu
+t line 755.
+(pdftex.def)             Requested size: 184.31836pt x 127.8245pt.
+
+<om_val_4_k0_1_ep_pt1_defoc_ztrack.pdf, id=220, 697.60625pt x 483.8075pt>
+File: om_val_4_k0_1_ep_pt1_defoc_ztrack.pdf Graphic file (type pdf)
+
+<use om_val_4_k0_1_ep_pt1_defoc_ztrack.pdf>
+Package pdftex.def Info: om_val_4_k0_1_ep_pt1_defoc_ztrack.pdf used on input li
+ne 755.
+(pdftex.def)             Requested size: 184.31836pt x 127.8245pt.
+
+<om_val_4_k0_1_ep_pt1_defoc_ztrack_pwave.pdf, id=221, 697.60625pt x 483.8075pt>
+File: om_val_4_k0_1_ep_pt1_defoc_ztrack_pwave.pdf Graphic file (type pdf)
+<use om_val_4_k0_1_ep_pt1_defoc_ztrack_pwave.pdf>
+Package pdftex.def Info: om_val_4_k0_1_ep_pt1_defoc_ztrack_pwave.pdf used on in
+put line 771.
+(pdftex.def)             Requested size: 192.0pt x 133.15451pt.
+
+<om_val_4_k0_1_ep_pt1_defoc_ztrack_pwave_detail.pdf, id=222, 697.60625pt x 483.
+8075pt>
+File: om_val_4_k0_1_ep_pt1_defoc_ztrack_pwave_detail.pdf Graphic file (type pdf
+)
+ <use om_val_4_k0_1_ep_pt1_defoc_ztrack_pwave_detail.pdf>
+Package pdftex.def Info: om_val_4_k0_1_ep_pt1_defoc_ztrack_pwave_detail.pdf use
+d on input line 771.
+(pdftex.def)             Requested size: 192.0pt x 133.15451pt.
+
+Overfull \hbox (12.0pt too wide) in paragraph at lines 770--774
+ [][] 
+ []
+
+[19 <./track_ep_pt1_tf_1_w_0_kap_pt5_foc.pdf> <./track_ep_pt1_tf_1_w_1pt12_kap_
+pt5_foc.pdf> <./track_ep_pt1_tf_1_w_n1_kap_pt5_foc.pdf>]
+(NLS_Paths_Master_File.bbl
+Underfull \vbox (badness 1642) has occurred while \output is active []
+
+ [20 <./track_ep_pt1_tf_1_w_0_kap_pt99_foc.pdf> <./track_ep_pt1_tf_1_w_1pt12_ka
+p_pt99_foc.pdf> <./track_ep_pt1_tf_1_w_n1_kap_pt99_foc.pdf> <./track_ep_pt1_tf_
+1_w_1pt704_kap_pt5_foc.pdf> <./track_ep_pt1_tf_1_w_1pt668_kap_pt99_foc.pdf>] [2
+1 <./om_val_1pt7_k0_1_ep_pt1_defoc_ztrack_pwave.pdf> <./om_val_1pt17_k0_1_ep_pt
+1_defoc_ztrack.pdf> <./om_val_4_k0_1_ep_pt1_defoc_ztrack.pdf> <./om_val_4_k0_1_
+ep_pt1_defoc_ztrack_pwave.pdf> <./om_val_4_k0_1_ep_pt1_defoc_ztrack_pwave_detai
+l.pdf>]
+[22]) [23] (NLS_Paths_Master_File.aux)
+
+LaTeX Warning: There were undefined references.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 3620 strings out of 493634
+ 49307 string characters out of 3135239
+ 117529 words of memory out of 3000000
+ 6928 multiletter control sequences out of 15000+200000
+ 15929 words of font info for 60 fonts, out of 3000000 for 9000
+ 1025 hyphenation exceptions out of 8191
+ 42i,15n,28p,1754b,318s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Users/Chris/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts
+/cm/cmbx10.pfb><C:/Users/Chris/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/pu
+blic/amsfonts/cm/cmbx12.pfb><C:/Users/Chris/AppData/Local/Programs/MiKTeX 2.9/f
+onts/type1/public/amsfonts/cm/cmbx7.pfb><C:/Users/Chris/AppData/Local/Programs/
+MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx8.pfb><C:/Users/Chris/AppData/Loc
+al/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx9.pfb><C:/Users/Chris
+/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><
+C:/Users/Chris/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
+/cmex10.pfb><C:/Users/Chris/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/publi
+c/amsfonts/cmextra/cmex9.pfb><C:/Users/Chris/AppData/Local/Programs/MiKTeX 2.9/
+fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Chris/AppData/Local/Program
+s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Users/Chris/AppData/L
+ocal/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/Chr
+is/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><
+C:/Users/Chris/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
+/cmmi9.pfb><C:/Users/Chris/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public
+/amsfonts/cm/cmr10.pfb><C:/Users/Chris/AppData/Local/Programs/MiKTeX 2.9/fonts/
+type1/public/amsfonts/cm/cmr5.pfb><C:/Users/Chris/AppData/Local/Programs/MiKTeX
+ 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/Chris/AppData/Local/Prog
+rams/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/Chris/AppData
+/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Users/Ch
+ris/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb
+><C:/Users/Chris/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/
+cm/cmsy6.pfb><C:/Users/Chris/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/publ
+ic/amsfonts/cm/cmsy7.pfb><C:/Users/Chris/AppData/Local/Programs/MiKTeX 2.9/font
+s/type1/public/amsfonts/cm/cmsy9.pfb><C:/Users/Chris/AppData/Local/Programs/MiK
+TeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/Chris/AppData/Local
+/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti8.pfb><C:/Users/Chris/A
+ppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti9.pfb><C:/U
+sers/Chris/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/symbol
+s/msam10.pfb><C:/Users/Chris/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/publ
+ic/amsfonts/symbols/msbm10.pfb><C:/Users/Chris/AppData/Local/Programs/MiKTeX 2.
+9/fonts/type1/public/amsfonts/symbols/msbm7.pfb>
+Output written on NLS_Paths_Master_File.pdf (23 pages, 1027150 bytes).
+PDF statistics:
+ 408 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 116 words of extra memory for PDF output out of 10000 (max. 10000000)
+

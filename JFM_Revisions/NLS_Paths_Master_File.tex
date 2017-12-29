@@ -490,7 +490,7 @@ u^{S} = \bar{u}^{L} - \bar{u} = \epsilon \overline{(y_{1}(\pd_{x}u'+\epsilon\ome
 \]
 Using identical arguments for the vertical velocity $w({\bf x},t)$ gives 
 \[
-w({\bf x},t) = w'({\bf x},t) + \overline{w}_{i}({\bf x},t),
+w({\bf x},t) = w'({\bf x},t) + \overline{w}({\bf x},t),
 \]
 where 
 \[
@@ -499,7 +499,7 @@ w'({\bf x},t)= \epsilon\left(e^{i\theta}\tilde{R}_{1} + e^{-i\theta}\tilde{R}_{1
 \]
 and 
 \[
-\overline{w}_{i}= \mathcal{O}(\epsilon^{3}).  
+\overline{w}= \mathcal{O}(\epsilon^{3}).  
 \]
 Therefore, the vertical SDV, $w^{S}$, is given by
 \[
@@ -507,15 +507,22 @@ w^{S} = \epsilon \overline{(y_{1}\pd_{x}w'+ y_{2}\pd_{z}w')} + \mathcal{O}(\epsi
 \]
 
 In order to then determine the disturbance ${\bf y}$, we note that Equation \eqref{speeddef} establishes that
-\[
+\begin{equation}
 \pd_{t}{\bf y} + \omega z \pd_{x}{\bf y} - \omega \bp y_{2}\\ 0 \ep = \bp R_{1}e^{i\theta}+R^{\ast}_{1}e^{-i\theta}\\ \tilde{R}_{1}e^{i\theta}+\tilde{R}^{\ast}_{1}e^{-i\theta} \ep + \mathcal{O}(\epsilon).
-\]
+\label{vareqn}
+\end{equation}
 Treating the value $z$ as an Eulerian parameter so that it is independent of time, the method of characteristics gives 
 \begin{align*}
 y_{1} = & - \frac{i}{k_{0}\omega z + \Omega}\left(R_{1}e^{i\theta} -R^{\ast}_{1}e^{-i\theta} \right) - \frac{\omega}{(k_{0}\omega z + \Omega)^{2}}\left(\tilde{R}_{1}e^{i\theta} + \tilde{R}^{\ast}_{1}e^{-i\theta} \right),\\
 y_{2} = & - \frac{i}{k_{0}\omega z + \Omega}\left(\tilde{R}_{1}e^{i\theta} -\tilde{R}^{\ast}_{1}e^{-i\theta} \right).
 \end{align*}
-We then use the leading order expansions
+Clearly this result is not valid when $z\sim z_{c} \equiv c_{p}(k,\omega)/\omega$, where the phase speed $c_{p}$ is given by 
+\[
+c_{p}(k_{0},\omega) = -\frac{\Omega_{\pm}(k_{0},\omega)}{k_{0}}.
+\]
+Again, due to our choice of signs in $\theta(x,t)$, we use the opposite sign on the phase speed so that a positive phase speed $c_{p}$ corresponds to a rightward propagating phase.   We see that $z_{c}$ typefies a kind of stagnation depth in which the carrier wave and the shear profile cancel one another out.  Choosing the positive branch for $\Omega$ and $k_{0}>0$, we see that as $\omega \gg 1$, $z_{c}\lessapprox -1$, which is, asymptotically speaking, well removed from the surface $z=\epsilon \eta(x,t)$.  However in the case that $\omega \ll -1$, we see that, while $z_{c}$ is always positive, $z_{c}\sim 0$.  Thus, for stronger negative shear values, the expansions above break down around the surface.    Throughout the remainder of the paper, when we look at the case in which $k_{0}\omega <0$, we choose other parameters so as to prevent the surface from overlapping with a critical region in which the GLM expansions above break down. 
+
+Away from the critical depth $z_{c}$, we then use the leading order expansions
 \[
 R_{1} \sim -s\Omega\eta_{1}e^{|k_{0}|z}, ~ \tilde{R}_{1} \sim i\Omega\eta_{1}e^{|k_{0}|z}, 
 \]
@@ -531,16 +538,38 @@ Putting these terms together, and using the irrotationality of the Eulerian fluc
 u^{S}(x,z,t) = \frac{2\epsilon^{2}\Omega^{2}}{c_{p} - \omega z }\left(1 + \left(\frac{\omega}{|k_{0}|(c_{p} - \omega z )} + 1\right)^{2} \right)|\eta_{1}(\xi,\tau)|^{2}e^{2|k_{0}|z} + \mathcal{O}(\epsilon^{3}), 
 \label{sdriftveloc}
 \end{equation}
-where the phase speed $c_{p}$ is given by 
-\[
-c_{p}(k_{0},\omega) = -\frac{\Omega_{\pm}(k_{0},\omega)}{k_{0}}.
-\]
-Again, due to our choice of signs in $\theta(x,t)$, we use the opposite sign on the phase speed so that a positive phase speed $c_{p}$ corresponds to a rightward propagating phase.  Using similar arguments and expansions, one can show that 
+Using similar arguments and expansions, one can show that 
 \[
 w^{S} = \mathcal{O}(\epsilon^{3}).
 \]
-Therefore, we ignore the vertical component of the SDV throughout the remainder of this paper.  
+Therefore, away from the critical depth $z_{c}$, we can ignore the vertical component of the SDV.  
 
+However, taking $k_{0}\omega >0$ so that $-\infty<z_{c}<-1$, it is illuminating to examine what happens near this critical depth.  Introducing the interior variable $\tilde{z}$ where
+$$
+\tilde{z} = \frac{1}{\epsilon^{2}}\left(z - z_{c} \right), 
+$$
+if we repeat the steps used to derive Equation \eqref{vareqn}, then we get that
+\begin{equation}
+\pd_{t}{\bf y} + \omega z_{c} \pd_{x}{\bf y}  + w^{S}\pd_{\tilde{z}}{\bf y} - \omega \bp y_{2}\\ 0 \ep = \bp R_{1}e^{i\theta}+R^{\ast}_{1}e^{-i\theta}\\ \tilde{R}_{1}e^{i\theta}+\tilde{R}^{\ast}_{1}e^{-i\theta} \ep + \mathcal{O}(\epsilon).
+\label{modvareqn}
+\end{equation}
+ Note, while we showed above that $w^{S}=\mathcal{O}(\epsilon^{3})$, this was a direct consequence of the form of the solutions of the variations $y_{j}$.  For $z\sim z_{c}$ this need no longer be the case, and we revert back to the more general statement that  $w^{S}=\mathcal{O}(\epsilon^{2})$, which is why we set the width of the layer around $z_{c}$ to be $\mathcal{O}(\epsilon^{2})$.  We therefore see that a relatively thin boundary layer should emerge in which the vertical SVD becomes much more significant.  
+ 
+ Somewhat troubling though is that by including the term $w^{S}$ in Equation \eqref{modvareqn}, we have made the problem nonlinear, thus allowing for far more complicated dynamics within the critical region around $z_{c}$.  To wit, by using the ansatze 
+ \[
+ y_{1} = y_{11}(\xi,\tau,\tilde{z})e^{i\theta} + y_{11}^{\ast}(\xi,\tau,\tilde{z})e^{-i\theta} + cdots, ~  y_{2} = y_{21}(\xi,\tau,\tilde{z})e^{i\theta} + y_{21}^{\ast}(\xi,\tau,\tilde{z})e^{-i\theta} + cdots,
+ \]
+ we can show that Equation \eqref{modvareqn} becomes 
+ \begin{align*}
+ -\omega y_{21} + 2k_{0}\left(-\mbox{Im}\left\{y_{11}^{\ast}\tilde{R}_{1}\right\}+s\mbox{Re}\left\{y_{21}^{\ast}\tilde{R}_{1}\right\}\right)\pd_{\tilde{z}}y_{11} = & R_{1}\\
+2k_{0}\left(-\mbox{Im}\left\{y_{11}^{\ast}\tilde{R}_{1}\right\}+s\mbox{Re}\left\{y_{21}^{\ast}\tilde{R}_{1}\right\}\right)\pd_{\tilde{z}}y_{21} = & \tilde{R}_{1}.
+ \end{align*}
+ Coupling these equations with their complex conjugates then gives us a four-dimensional nonlinear system to solve to describe the dynamics of the perturbations $y_{j}$ in the critical layer around $z_{c}$.  A bit of manipulation, and noting that $R_{1}$ and $\tilde{R}_{1}$ are to leading order independent of $\tilde{z}$ leads to the constraint
+ \[
+ R_{1}y_{21} + \frac{\omega}{2}y_{21}^{2} = \tilde{R}_{1}y_{11} + \tilde{C}, ~ \tilde{C} = \tilde{C}(\xi,\tau),
+ \]
+ thus allowing for a reduction of the system by two dimensions.  We leave the details of  
+ 
 In the case of a plane-wave solution, the leading-order SDV at the surface can be evaluated in closed form giving  
 \begin{equation}
 u^{S}(x,z,t) = \frac{2\epsilon^{2}A^{2}\Omega^{2}}{c_{p}-\omega z} \left(1 + \left(\frac{\omega}{|k_{0}|(c_{p} - \omega z )} + 1\right)^{2} \right) e^{2|k_{0}|z} + \mathcal{O}(\epsilon^{3}).
