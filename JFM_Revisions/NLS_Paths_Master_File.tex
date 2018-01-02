@@ -60,13 +60,12 @@
 
 \begin{abstract}
 This paper investigates the effect of constant vorticity background shear on the properties of wavetrains in deep water. Using the methodology of \cite{fokas2008},
-the authors derive a higher-order nonlinear Schr\"{o}dinger equation in the presence of shear and surface tension.  We show that the presence of shear induces a strong coupling between the carrier wave and the mean surface displacement.  The effects of the background shear on the modulational instability of plane waves is also studied, where it is shown that shear can suppress instability.  These results complement and expand upon the findings of \cite{thomas2012nonlinear}.
+the authors derive a higher-order nonlinear Schr\"{o}dinger equation in the presence of shear and surface tension.  We show that the presence of shear induces a strong coupling between the carrier wave and the mean surface displacement.  The effects of the background shear on the modulational instability of plane waves is also studied, where it is shown that shear can suppress instability.  These results expand upon and corroborate the findings of \cite{thomas2012nonlinear}.
 
-Using a modification of the Generalized Lagrangian Mean theory in  \cite{andrews} and approximate formulas for the velocity field in the fluid column,
-it is found that background currents have significant effects on the Stokes drift velocity. In particular, certain combinations of background shear and carrier frequency lead to the disappearance of the Lagrangian drift velocity, thereby quenching mean surface mass transport.  These results
-are in agreement with measurements reported in \cite{smith}.
+Using a modification of the Generalized Lagrangian Mean theory in  \cite{andrews} and approximate formulas for the velocity field in the fluid column, explicit, asymptotic approximations for the Stokes drift velocity are obtained for plane wave and Jacobi elliptic function solutions of the nonlinear Schr\"odinger equation.  Numerical approximations to particle trajectories for these solutions are found and the Stokes drift velocities and Lagrangian drift velocities corresponding to these numerical solutions corroborate the theoretical results.  
 
-Explicit, asymptotic approximations for the Stokes drift velocity are obtained for plane wave and Jacobi elliptic function solutions of the nonlinear Schr\"odinger equation.  Numerical approximations to particle trajectories for these solutions are found and the Stokes drift velocities and Lagrangian drift velocities corresponding to these numerical solutions corroborate the theoretical results.  Our results also provide further evidence of the viability of the modification of the Stokes drift velocity beyond the standard monochromatic approximation, such as recently proposed in \cite{breivik} in order to obtain a closer match to a range of complex ocean wave spectra.
+It is found that background currents have significant effects on the mean transport properties of waves. In particular, certain combinations of background shear and carrier frequency lead to the disappearance of mean surface mass transport.  These results
+are in agreement with measurements reported in \cite{smith}.  Our results also provide further evidence of the viability of the modification of the Stokes drift velocity beyond the standard monochromatic approximation, such as recently proposed in \cite{breivik} in order to obtain a closer match to a range of complex ocean wave spectra.
 \end{abstract}
 
 \section{Introduction}
@@ -198,6 +197,7 @@ and at $\mathcal{O}(\epsilon)$ we find that
 \[
 c_{g} = \frac{1+3\tilde{\sigma}k_{0}^{2}}{2s\Omega - \omega}.
 \]
+We note that Equation (\ref{LDR}) establishes that $\Omega_{+}(k_{0},\omega) > 0$ and $\Omega_{-}(k_{0},\omega) < 0$ for $k_{0}\neq0$.  
 
 By looking at the second harmonic $e^{2i\theta}$, we find that 
 \[
@@ -346,7 +346,7 @@ Per our convention of taking the fast phase, $\theta(x,t)$, to be
 \[
 \theta(x,t) = k_{0}x + \Omega(k_{0},\omega) t,
 \]
-if $k_{0}>0$ and $\Omega(k_{0},\omega)>0$, then the carrier wave propagates to the left, while if $k_0>0$ and $\Omega(k_{0},\omega)<0$, it is propagating to the right.  These relationships are reversed if $k_{0}<0$.  We note that Equation (\ref{LDR}) establishes that $\Omega_{+}(k_{0},\omega) > 0$ and $\Omega_{-}(k_{0},\omega) < 0$ for $k_{0}\neq0$.  Figures \ref{fig:miplot}(a) and (b) then show that MIs are generally suppressed when the shear current at the surface is co-propagating with respect to the carrier wave with sufficient strength which is inversely related to the carrier wavenumber.  Thus, in order to suppress most MIs, we need either relatively high carrier wave numbers $k_{0}$ for relatively weak shear currents, or relatively strong shear currents for relatively low carrier wave numbers.  The regions in Figures \ref{fig:miplot}(a) and (b) in which counter-propagating sheer currents suppress MIs are more complicated in nature, though one can argue that counter-propagating currents generally exacerbate MIs, especially with increasing shear strength.  
+if $k_{0}\Omega(k_{0},\omega)>0$, then the carrier wave propagates to the left, while if $k_0 \Omega(k_{0},\omega)<0$, it is propagating to the right.  Figures \ref{fig:miplot}(a) and (b) then show that MIs are generally suppressed when the shear current at the surface is co-propagating with respect to the carrier wave with sufficient strength which is inversely related to the carrier wavenumber.  Thus, in order to suppress most MIs, we need either relatively high carrier wave numbers $k_{0}$ for relatively weak shear currents, or relatively strong shear currents for relatively low carrier wave numbers.  The regions in Figures \ref{fig:miplot}(a) and (b) in which counter-propagating sheer currents suppress MIs are more complicated in nature, though one can argue that counter-propagating currents generally exacerbate MIs, especially with increasing shear strength.  
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Derivation of Velocity Formulas}
 In non-dimensional coordinates, the position of a given fluid particle, $(x(t),z(t))$, is defined by the dynamical system 
@@ -423,7 +423,7 @@ R_{1}(\xi,z,\tau) \sim & -\frac{s\Omega}{2\pi}\int_{\mathbb{R}} dk ~ e^{i k \xi}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{The Stokes Drift Velocity}
-We now show how our above approximation schemes can be used in to determine how a background shear current modifies the Stokes drift velocity (SDV). Following the Generalized Lagrangian Mean (GLM) formalism presented in \cite{andrews}, for some quantity $\varphi({\bf x},t)$, given an
+We now show how our above approximation schemes can be used in to determine how a background shear current modifies the Stokes drift velocity (SDV).  Note, throughout the remainder of the paper, $\Omega$ always denotes the positive branch $\Omega_{+}$.  Following the Generalized Lagrangian Mean (GLM) formalism presented in \cite{andrews}, for some quantity $\varphi({\bf x},t)$, given an
 Eulerian mean operator $\bar{()}$, we define the Lagrangian mean $\bar{()}^{L}$ at a point ${\bf x}$ relative to the disturbance ${\bf y}({\bf x},t)$ to be  
 \[
 \bar{\varphi}^{L}({\bf x},t) = \overline{\varphi({\bf x}+{\bf y}({\bf x},t),t)}.
@@ -518,9 +518,9 @@ y_{2} = & - \frac{i}{k_{0}\omega z + \Omega}\left(\tilde{R}_{1}e^{i\theta} -\til
 \end{align*}
 Clearly this result is not valid when $z\sim z_{c} \equiv c_{p}(k,\omega)/\omega$, where the phase speed $c_{p}$ is given by 
 \[
-c_{p}(k_{0},\omega) = -\frac{\Omega_{\pm}(k_{0},\omega)}{k_{0}}.
+c_{p}(k_{0},\omega) = -\frac{\Omega(k_{0},\omega)}{k_{0}}.
 \]
-Again, due to our choice of signs in $\theta(x,t)$, we use the opposite sign on the phase speed so that a positive phase speed $c_{p}$ corresponds to a rightward propagating phase.   We see that $z_{c}$ typefies a kind of stagnation depth in which the carrier wave and the shear profile cancel one another out.  Choosing the positive branch for $\Omega$ and $k_{0}>0$, we see that as $\omega \gg 1$, $z_{c}\lessapprox -1$, which is, asymptotically speaking, well removed from the surface $z=\epsilon \eta(x,t)$.  However in the case that $\omega \ll -1$, we see that, while $z_{c}$ is always positive, $z_{c}\sim 0$.  Thus, for stronger negative shear values, the expansions above break down around the surface.    Throughout the remainder of the paper, when we look at the case in which $k_{0}\omega <0$, we choose other parameters so as to prevent the surface from overlapping with a critical region in which the GLM expansions above break down. 
+Again, due to our choice of signs in $\theta(x,t)$, we use the opposite sign on the phase speed so that a positive phase speed $c_{p}$ corresponds to a rightward propagating phase.   We see that $z_{c}$ typefies a kind of stagnation depth in which the carrier wave and the shear profile cancel one another out.  Choosing $k_{0}>0$, we see that as $\omega \gg 1$, $z_{c}\lessapprox -1$, which is, asymptotically speaking, well removed from the surface $z=\epsilon \eta(x,t)$.  However in the case that $\omega \ll -1$, we see that, while $z_{c}$ is always positive, $z_{c}\sim 0$.  Thus, for stronger negative shear values, the expansions above break down around the surface.    Throughout the remainder of the paper, when we look at the case in which $k_{0}\omega <0$, we choose other parameters so as to prevent the surface from overlapping with a critical region in which the GLM expansions above break down. We further explore what happens near $z_{c}$ in the case $k_{0}\omega >0$ at the end of this section.  
 
 Away from the critical depth $z_{c}$, we then use the leading order expansions
 \[
@@ -544,32 +544,6 @@ w^{S} = \mathcal{O}(\epsilon^{3}).
 \]
 Therefore, away from the critical depth $z_{c}$, we can ignore the vertical component of the SDV.  
 
-However, taking $k_{0}\omega >0$ so that $-\infty<z_{c}<-1$, it is illuminating to examine what happens near this critical depth.  Introducing the interior variable $\tilde{z}$ where
-$$
-\tilde{z} = \frac{1}{\epsilon^{2}}\left(z - z_{c} \right), 
-$$
-if we repeat the steps used to derive Equation \eqref{vareqn}, then we get that
-\begin{equation}
-\pd_{t}{\bf y} + \omega z_{c} \pd_{x}{\bf y}  + w^{S}\pd_{\tilde{z}}{\bf y} - \omega \bp y_{2}\\ 0 \ep = \bp R_{1}e^{i\theta}+R^{\ast}_{1}e^{-i\theta}\\ \tilde{R}_{1}e^{i\theta}+\tilde{R}^{\ast}_{1}e^{-i\theta} \ep + \mathcal{O}(\epsilon).
-\label{modvareqn}
-\end{equation}
- Note, while we showed above that $w^{S}=\mathcal{O}(\epsilon^{3})$, this was a direct consequence of the form of the solutions of the variations $y_{j}$.  For $z\sim z_{c}$ this need no longer be the case, and we revert back to the more general statement that  $w^{S}=\mathcal{O}(\epsilon^{2})$, which is why we set the width of the layer around $z_{c}$ to be $\mathcal{O}(\epsilon^{2})$.  We therefore see that a relatively thin boundary layer should emerge in which the vertical SVD becomes much more significant.  
- 
- Somewhat troubling though is that by including the term $w^{S}$ in Equation \eqref{modvareqn}, we have made the problem nonlinear, thus allowing for far more complicated dynamics within the critical region around $z_{c}$.  To wit, by using the ansatze 
- \[
- y_{1} = y_{11}(\xi,\tau,\tilde{z})e^{i\theta} + y_{11}^{\ast}(\xi,\tau,\tilde{z})e^{-i\theta} + cdots, ~  y_{2} = y_{21}(\xi,\tau,\tilde{z})e^{i\theta} + y_{21}^{\ast}(\xi,\tau,\tilde{z})e^{-i\theta} + cdots,
- \]
- we can show that Equation \eqref{modvareqn} becomes 
- \begin{align*}
- -\omega y_{21} + 2k_{0}\left(-\mbox{Im}\left\{y_{11}^{\ast}\tilde{R}_{1}\right\}+s\mbox{Re}\left\{y_{21}^{\ast}\tilde{R}_{1}\right\}\right)\pd_{\tilde{z}}y_{11} = & R_{1}\\
-2k_{0}\left(-\mbox{Im}\left\{y_{11}^{\ast}\tilde{R}_{1}\right\}+s\mbox{Re}\left\{y_{21}^{\ast}\tilde{R}_{1}\right\}\right)\pd_{\tilde{z}}y_{21} = & \tilde{R}_{1}.
- \end{align*}
- Coupling these equations with their complex conjugates then gives us a four-dimensional nonlinear system to solve to describe the dynamics of the perturbations $y_{j}$ in the critical layer around $z_{c}$.  A bit of manipulation, and noting that $R_{1}$ and $\tilde{R}_{1}$ are to leading order independent of $\tilde{z}$ leads to the constraint
- \[
- R_{1}y_{21} + \frac{\omega}{2}y_{21}^{2} = \tilde{R}_{1}y_{11} + \tilde{C}, ~ \tilde{C} = \tilde{C}(\xi,\tau),
- \]
- thus allowing for a reduction of the system by two dimensions.  We leave the details of  
- 
 In the case of a plane-wave solution, the leading-order SDV at the surface can be evaluated in closed form giving  
 \begin{equation}
 u^{S}(x,z,t) = \frac{2\epsilon^{2}A^{2}\Omega^{2}}{c_{p}-\omega z} \left(1 + \left(\frac{\omega}{|k_{0}|(c_{p} - \omega z )} + 1\right)^{2} \right) e^{2|k_{0}|z} + \mathcal{O}(\epsilon^{3}).
@@ -599,7 +573,7 @@ and choosing the positive branch of the dispersion relationship, Figure \ref{fig
 \begin{tabular}{c}
 \includegraphics[width=.48\textwidth]{us_magnitude} 
 \end{tabular}
-\caption{\small Plot of $\log_{10}|\tilde{u}^{S}(k_{0},\omega)|$.}
+\caption{\small Log plot of the SVD $\tilde{u}^{S}(k_{0},\omega)$.  The curves along which $\tilde{u}^{S}(k_{0},\omega)=0$ mirror the transistions between MI stable and unstable regions seen in Figure \ref{fig:miplot}.  The Stokes drift is most augmented along the curves correpsonding to $\alpha_{nl}(k_{0},\omega)=0$.  }
 \label{fig:sdriftmag_sign}
 \end{figure} 
 
@@ -610,7 +584,7 @@ To get a more detailed understanding of how the SDV depends on the shear current
 \includegraphics[width=.32\textwidth]{us_wide_range} & \includegraphics[width=.32\textwidth]{us_n1_to_1pt1} & \includegraphics[width=.32\textwidth]{us_1pt2_to_4}\\
 (a) & (b) & (c)
 \end{tabular}
-\caption{\small Plots of $\tilde{u}^{S}(1,\omega)$ choosing $\Omega_{+}(1,\omega)$ as the choice of the dispersion relationship for $-1\leq \omega \leq 4$ (a), $-1\leq \omega \leq 1.12$ (b), and $1.17\leq \omega \leq 4$ (c).  Note, $\alpha_{nl}(1;1.1550)=0$.  The figure then shows that the magnitude of the SDV increases with increasing shear on the focusing side of the singularity (b), and decreases with increasing shear on the defocusing side (c).}
+\caption{\small Plots of $\tilde{u}^{S}(1,\omega)$ for $-1\leq \omega \leq 4$ (a), $-1\leq \omega \leq 1.12$ (b), and $1.17\leq \omega \leq 4$ (c).  Note, $\alpha_{nl}(1;1.1550)=0$.  The figure shows that the magnitude of the SDV increases with increasing shear on the focusing side of the singularity (b), and decreases with increasing shear on the defocusing side (c).}
 \label{fig:stksdrfcomp}
 \end{figure}
 
@@ -636,6 +610,46 @@ As one would expect, our modification of the GLM approach alters the computation
 \label{fig:zerodriftk0}
 \end{figure}
 
+\subsection{Mean Flow Near $z_{c}$}
+Taking $k_{0}\omega >0$ so that $-\infty<z_{c}<-1$, it is illuminating to begin to examine what the mean and fluctuation components of the flow are near the critical depth $z_{c}$.  Introducing the interior variable $\tilde{z}$ where
+$$
+\tilde{z} = \frac{1}{\epsilon^{2}}\left(z - z_{c} \right), 
+$$
+if we repeat the steps used to derive Equation \eqref{vareqn}, then we get that
+\begin{equation}
+\pd_{t}{\bf y} + \omega z_{c} \pd_{x}{\bf y}  + w^{S}\pd_{\tilde{z}}{\bf y} - \omega \bp y_{2}\\ 0 \ep = \bp R_{1}e^{i\theta}+R^{\ast}_{1}e^{-i\theta}\\ \tilde{R}_{1}e^{i\theta}+\tilde{R}^{\ast}_{1}e^{-i\theta} \ep + \mathcal{O}(\epsilon).
+\label{modvareqn}
+\end{equation}
+ Note, while we showed above that $w^{S}=\mathcal{O}(\epsilon^{3})$, this was a direct consequence of the form of the solutions of the variations $y_{j}$.  For $z\sim z_{c}$ this need no longer be the case, and we revert back to the more general statement that  $w^{S}=\mathcal{O}(\epsilon^{2})$, which is why we set the width of the layer around $z_{c}$ to be $\mathcal{O}(\epsilon^{2})$.  We therefore see that a relatively thin boundary layer should emerge in which the vertical SVD becomes more significant.  
+ 
+ We further see that by including the term $w^{S}$ in Equation \eqref{modvareqn}, we have made the problem nonlinear, thus allowing for more complicated dynamics within the critical region around $z_{c}$.  To wit, by using the ansatze 
+ \[
+ y_{1} = y_{11}(\xi,\tau,\tilde{z})e^{i\theta} + y_{11}^{\ast}(\xi,\tau,\tilde{z})e^{-i\theta} + \cdots, ~  y_{2} = y_{21}(\xi,\tau,\tilde{z})e^{i\theta} + y_{21}^{\ast}(\xi,\tau,\tilde{z})e^{-i\theta} + \cdots,
+ \]
+ we can show that Equation \eqref{modvareqn} becomes 
+ \begin{align*}
+ -\omega y_{21} + 2k_{0}\left(-\mbox{Im}\left\{y_{11}^{\ast}\tilde{R}_{1}\right\}+s\mbox{Re}\left\{y_{21}^{\ast}\tilde{R}_{1}\right\}\right)\pd_{\tilde{z}}y_{11} = & R_{1}\\
+2k_{0}\left(-\mbox{Im}\left\{y_{11}^{\ast}\tilde{R}_{1}\right\}+s\mbox{Re}\left\{y_{21}^{\ast}\tilde{R}_{1}\right\}\right)\pd_{\tilde{z}}y_{21} = & \tilde{R}_{1}.
+ \end{align*}
+ Separating into real and imaginary parts makes this a four-dimensional nonlinear system to solve.  However, a bit of manipulation, and noting that $R_{1}$ and $\tilde{R}_{1}$ are to leading order independent of $\tilde{z}$, leads to the constraint
+ \[
+ R_{1}y_{21} + \frac{\omega}{2}y_{21}^{2} = \tilde{R}_{1}y_{11} + \tilde{C}, ~ \tilde{C} = \tilde{C}(\xi,\tau),
+ \]
+ thus allowing for a reduction of the system by two dimensions.  Letting 
+ \[
+ y_{21} = y_{21}^{(r)} + i y_{21}^{(i)},
+ \]
+ we can then readily show that 
+ \[
+ y^{(i)}_{21} = \frac{\bar{C} + \tilde{R}_{1}^{(i)}y_{21}^{(r)}}{\tilde{R}_{1}^{(r)}}, ~ \bar{C} = \bar{C}(\xi,\tau),
+ \]
+ and then 
+ \[
+ \tilde{\tilde{C}} y_{21}^{(r)} + \frac{\alpha_{0}}{2}\left(y_{21}^{(r)}\right)^{2} + \frac{\alpha_{1}}{3}\left(y_{21}^{(r)}\right)^{3} = \frac{\tilde{R}_{1}^{(r)}}{2k_{0}}\tilde{z} + \tilde{D},
+ \]
+where $\tilde{\tilde{C}}$ and $\tilde{D}$ are real value constants depending only on the slow variables $\xi$ and $\tau$, while $\alpha_{0}$ and $\alpha_{1}$ are real valued constants which depend on the physical parameters of the problem.  Note, details are ommitted for brevity.  
+
+As we see then, since this is a cubic equation, we are always guaranteed at least one real root for all values of $\tilde{z}$, thus permitting for $y_{21}$ to in principal be computed, which in turn gives us $y_{11}$ and thus the fluctuation about the mean in the critical layer around $z_{c}$.  While addressing further details, such as asymptotically matching across the layer, will be left for future work, our preliminary analysis shows that a background shear approprialately aligned to the carrier wave, i.e. when $k_{0}\omega >0$, creates a relatively sharp boundary layer in which the mean transport properties and fluctuation dynamics are markedly altered in comparison to the rest of the fluid.  The impact of this on flow properties throughout the bulk of the fluid is also a question of future research. 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Numerical Results}
@@ -663,7 +677,7 @@ For the Jacobi elliptic function solutions, we choose the initial tracer positio
 \[
 \xi_{s}(0) = \frac{K(\kappa)}{128}, ~ z_{s}(0) = \epsilon \tilde{\eta}(\xi_{s}(0),0),
 \]
-where $K(\kappa)$ is the complete elliptic integral of the first kind and $\tilde{\eta}$ is defined by Equation \eqref{nlssurfexpan}.  For the plane wave solutions, we chose $\xi_s(0)=10/128$ so the initial positions are comparable across the different classes of solutions.  We take the positive branch of the dispersion relationship, which implies that $k_{0}>0$ corresponds to a left-moving-carrier wave.  We choose $k_{0}=1$ for the plane-wave solutions.  In the case of the Jacobi elliptic solutions to the NLS equation, we choose the integer $m$ to be 
+where $K(\kappa)$ is the complete elliptic integral of the first kind and $\tilde{\eta}$ is defined by Equation \eqref{nlssurfexp}.  For the plane wave solutions, we chose $\xi_s(0)=10/128$ so the initial positions are comparable across the different classes of solutions.  We take the positive branch of the dispersion relationship, which implies that $k_{0}>0$ corresponds to a left-moving-carrier wave.  We choose $k_{0}=1$ for the plane-wave solutions.  In the case of the Jacobi elliptic solutions to the NLS equation, we choose the integer $m$ to be 
 \[
 m = \left\lfloor \frac{2K(\kappa)}{\pi \epsilon}\right\rfloor,
 \]
@@ -680,7 +694,7 @@ Finally, note that the expansions in \eqref{phixexp} and \eqref{phizexp}, and th
 \includegraphics[width=.32\textwidth]{amp_factor_k0_1_wide_range} & \includegraphics[width=.32\textwidth]{amp_factor_k0_1_n1_to_1pt12} & \includegraphics[width=.32\textwidth]{amp_factor_k0_1_1pt2_to_4}\\
 (a) & (b) & (c)
 \end{tabular}
-\caption{\small Plots of $\sqrt{2|\alpha_{d}/\alpha_{nl}|}$ for $k_{0}=1$ and $\Omega_{+}$ as the choice of the dispersion relationship for $-1\leq \omega \leq 4$ (a), $-1\leq \omega \leq 1.12$ (b), and $1.17\leq \omega \leq 4$ (c).}
+\caption{\small Strength of the surface velocity as measured via plots of $\sqrt{2|\alpha_{d}/\alpha_{nl}|}$ for $k_{0}=1$ for $-1\leq \omega \leq 4$ (a), $-1\leq \omega \leq 1.12$ (b), and $1.17\leq \omega \leq 4$ (c).  Increasing shear increases the velocity on the focusing side, and decreases it on the defocusing side.}
 \label{fig:ampcomps}
 \end{figure}
 In the focusing case, increasing the magnitude of the Jacobi elliptic function solutions corresponds to increasing the shear strength.  In the defocusing case, decreasing the magnitude of the Jacobi elliptic function solutions corresponds to increasing the shear strength.  These two statements are justified by the similarities of Figures \ref{fig:ampcomps} (b) and (c) and \ref{fig:stksdrfcomp} (b) and (c).  Therefore, relatively large amplitude solutions inducing strong fluid particle drift is to be expected near the resonance curve.  
@@ -735,7 +749,7 @@ For the Jacobi elliptic solutions with $k_{0}\approx 1$, the zero LDV solutions 
 \includegraphics[width=.48\textwidth]{track_ep_pt1_tf_1_w_1pt704_kap_pt5_foc} & \includegraphics[width=.48\textwidth]{track_ep_pt1_tf_1_w_1pt668_kap_pt99_foc} \\
 (a) $\omega=1.7037$ & (b) $\omega=1.6682$ 
 \end{tabular}
-\caption{\small {\bf Defocusing Case} - Plots of particle paths correspond to the solution given in Equation (\ref{snsolns}) with $\epsilon=0.1$, $\beta=1$, $k_{0}\approx 1$, with $\kappa=0.5$  (a), $\kappa=0.99$ (b). The grey dots indicate the starting positions of the tracers while the black dots indicate their final positions.}
+\caption{\small {\bf Defocusing Case} - Plots of particle paths correspond to the solution given in Equation (\ref{snsolns}) with $\epsilon=0.1$, $\beta=1$, $k_{0}\approx 1$, with $\kappa=0.5$  (a), $\kappa=0.99$ (b). The grey dots indicate the starting positions of the tracers while the black dots indicate their final positions.  }
 \label{fig:jaczerodrift}
 \end{figure}
 As can be seen, the particle paths, while not exactly closed, are spirals and are constrained in their horizontal and vertical extent by an outer elliptical perimeter.  Similarly, the shear strength can be chosen so that the LDV is zeroed out for the plane-wave solutions.  Taking $k_{0}=1$ and $A=1$, this corresponds to choosing $\omega = 1.6828$.  Figure \ref{fig:pwavezdrift} shows a nearly closed particle path.  We emphasize that these results are a confirmation of the predictions made in Figure \ref{fig:zerodriftk0}.  Thus, these numerical results validate our choice to generalize the GLM approach in so far as we see the generalization provides the correct predictions for when shear will quench surface drift.
