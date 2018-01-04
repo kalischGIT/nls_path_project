@@ -60,7 +60,7 @@
 
 \begin{abstract}
 This paper investigates the effect of constant vorticity background shear on the properties of wavetrains in deep water. Using the methodology of \cite{fokas2008},
-the authors derive a higher-order nonlinear Schr\"{o}dinger equation in the presence of shear and surface tension.  We show that the presence of shear induces a strong coupling between the carrier wave and the mean surface displacement.  The effects of the background shear on the modulational instability of plane waves is also studied, where it is shown that shear can suppress instability.  These results expand upon and corroborate the findings of \cite{thomas2012nonlinear}.
+the authors derive a higher-order nonlinear Schr\"{o}dinger equation in the presence of shear and surface tension.  We show that the presence of shear induces a strong coupling between the carrier wave and the mean surface displacement.  The effects of the background shear on the modulational instability of plane waves is also studied, where it is shown that shear can suppress instability, though not for all carrier wavelengths in the presence of surface tension.  These results expand upon and corroborate the findings of \cite{thomas2012nonlinear}.
 
 Using a modification of the Generalized Lagrangian Mean theory in  \cite{andrews} and approximate formulas for the velocity field in the fluid column, explicit, asymptotic approximations for the Stokes drift velocity are obtained for plane wave and Jacobi elliptic function solutions of the nonlinear Schr\"odinger equation.  Numerical approximations to particle trajectories for these solutions are found and the Stokes drift velocities and Lagrangian drift velocities corresponding to these numerical solutions corroborate the theoretical results.  
 
@@ -82,7 +82,7 @@ In order then to better understand the impact of constant vorticity, and thus ba
 
 Using the above derivations, we provide the first description of the impact of constant vorticity shear currents on the SDV via the techniques of the Generalized Lagrangian Mean (GLM) theory \cite{andrews,buhler}. This approach provides an unambiguous way of computing the SDV under the influence of depth varying currents, whereby we are then able to explicitly derive formulas for the SDV for a wide variety of solutions to the NLS equation. Our method enables us to quantify the combined effect of background shear and wave modulation, and to determine which combinations of background shear and carrier wave frequency produce particularly strong or weak mean flows.  Further, we are able to show which background shear currents quench mean surface flows, thereby providing a potential theoretical explanation for the results seen in \cite{smith}. We also show how one can derive from our model the phenomenological modifications used in \cite{breivik}. 
 
-As will come to light in the body of the paper, in order to accurately predict which background shear current is able to reduce or remove any mean surface flow, a slight extension of the standard GLM theory is needed.  While this generalization is relatively straightforward, it does introduce the interesting question of how to adapt the GLM framework to more general fluid problems with strong background current flows, and thus opens up a number of future research topics.
+%As will come to light in the body of the paper, in order to accurately predict which background shear current is able to reduce or remove any mean surface flow, a slight extension of the standard GLM theory is needed.  While this generalization is relatively straightforward, it does introduce the interesting question of how to adapt the GLM framework to more general fluid problems with strong background current flows, and thus opens up a number of future research topics.
 
 As a way of confirming our theoretical findings, we discretize the dynamical system describing particle trajectories in the NLS approximation and compute numerical approximations of such trajectories. Our numerical results show that the impact of background shear currents on particle paths and the SDV are in line with the results predicted by our theory. We generate the numerical approximations by using the Jacobi elliptic function solutions for both the focusing and defocusing NLS equations to model deep water time-evolving surface waves.  Complementing these results, we also examine the defocusing plane-wave solutions of the NLS equation.  Our results show how transport properties are most enhanced for shear currents which propagate at the surface against the carrier wave.  This can occur near what appear to be resonances between nonlinearity and the background shear profile.  Likewise, in the defocusing case we numerically confirm the theoretical predictions made for those balances between vorticity and carrier wave-number which one expects to quench the mean surface drift, , thereby providing a possible explanatory mechanism for the results in \cite{smith,breivik,monismith}.  In total, our theoretical and numerical results show that the transport properties of surface waves can be deeply affected by constant vorticity background shear profiles and motivating further study of the impact of rapidly depth-varying currents.  
 
@@ -486,7 +486,7 @@ Note, in order to derive the above formulas, we used a slight modification of th
 \[
 \omega(z+\epsilon y_{2}(x+\epsilon y_{1},z,t)) = \omega (z + \epsilon y_{2}) + \epsilon^{2}\omega y_{1}\pd_{x}y_{2} + \mathcal{O}(\epsilon^{3}).
 \]
-This modification accounts for horizontal disturbances at or near the surface of the fluid introduced by the $\mathcal{O}(1)$ shear current.  A justification for this modification is provided at the end of this section and further corroborated by our numerical results presented in the next section.  Using the definition of the SDV then gives the formula 
+This modification accounts for the dependence of the surface $z=\epsilon \eta$ on the fast phases $\theta$ as seen in Equation \eqref{nlssurfexp}, the impact of which is exacerbated by the $\mathcal{O}(1)$ shear current.    This modification is corroborated by our numerical results presented in the next section.  Using the definition of the SDV then gives the formula 
 \[
 u^{S} = \bar{u}^{L} - \bar{u} = \epsilon \overline{(y_{1}(\pd_{x}u'+\epsilon\omega\pd_{x}y_{2}) + y_{2}\pd_{z}u' )} + \mathcal{O}(\epsilon^{3}).
 \]
@@ -553,7 +553,7 @@ u^{S}(x,z,t) = \frac{2\epsilon^{2}A^{2}\Omega^{2}}{c_{p}-\omega z} \left(1 + \le
 \end{equation}
 This expands on the classic result for the SDV over infinitely deep water, and shows how constant shear currents modify the drift velocity.  If the vorticity is assumed to be zero in Equation (\ref{pwavesdrift}) then the classic result
 \begin{equation}
-u^{S}(x,z,t) = 4\epsilon^2A^2k_0\sqrt{|k_0|(1+\tilde{\sigma}k_0^2)}~e^{2|k_0|z},
+u^{S}(x,z,t) \sim a^{2}k_0\sqrt{|k_0|(1+\tilde{\sigma}k_0^2)}~e^{2|k_0|z}, ~ a = 2\epsilon A,
 \end{equation}
 is obtained for right-moving waves.  Equation (\ref{pwavesdrift}) likewise provides support for the phenomenological choices of how the SDV of a Stokes wave varies in depth made in \cite{breivik}.  There, the classic formula for the SDV was modified by multiplying it by terms like $1/(1+\tilde{c}z)$, where $\tilde{c}$ was then chosen to improve agreements with observed data.  Thus our result provides a physical motivation for the appearance of such terms.  However, while we can put forth a physical mechanism, whether unresolved shear currents near the surface are truly responsible for disagreements between theory and observation is a matter for future work.     
 
@@ -599,20 +599,26 @@ where the scaling factor $u^{L}_{p}$ is given by
 u^{L}_{p}(k_{0},\omega) =  \frac{ \omega^{2}(2s\Omega(k_{0},\omega) - \omega)}{1+\omega c_{g}(k_{0},\omega)} - 2k_{0}\Omega(k_{0},\omega)\left(1 + \left(1 - \frac{s\omega}{\Omega(k_{0},\omega)} \right)^{2}\right). 
 \]
 The LDV determines the mean horizontal velocity of a particle at or near the surface, and this is then controlled by the magnitude of the solution to the NLS equation we study and the magnitude of $u^{L}_{p}$.  Of particular interest given the puzzling results on the existence of drift quenching Eulerian counterflows \cite{monismith,smith}, we can also then determine vorticity values $\omega$ for a given wavenumber $k_{0}$ such that $u^{L}_{p}(k_{0},\omega) =0$, which corresponds to the presence of an Eulerian counterflow which counters the effect of the SDV.  We plot this zero level set for $0\leq k_{0}\leq 20$ in Figure \ref{fig:zerodriftk0}.  As can be seen, shear strengths which contribute to the suppression of particle drift are always counter-propagating relative to a positively elevated surface.  
-
-At this point, we note that had we not introduced the modification to GLM used above, the formula we would get for the LDV at the surface, say $u_{p}^{L,a}$ would be 
-\[
-u^{L,a}_{p}(k_{0},\omega) =  \frac{ \omega^{2}(2s\Omega(k_{0},\omega) - \omega)}{1+\omega c_{g}(k_{0},\omega)} - 2k_{0}\Omega(k_{0},\omega)\left( 2 - \frac{s\omega}{\Omega(k_{0},\omega)} \right). 
-\]
-As one would expect, our modification of the GLM approach alters the computation of the SDV, which in turn then would markedly shift where the zero set of $u^{L,a}_{p}(k_{0},\omega)$ appears relative to the zero set of $u^{L}_{p}(k_{0},\omega)$.  This is illustrated by comparing the two curves plotted in Figure \ref{fig:zerodriftk0}.  As shown in subsequent sections, the numerical simulations we have developed confirm the prediction of quenched surface drift velocity given by finding $u^{L}_{p}(k_{0},\omega)=0$, thereby validating our generalization of the GLM methodology.  
 \begin{figure}
 \centering
 \includegraphics[width=.55\textwidth]{zero_return_shear}
-\caption{\small Plot of the zero sets $u^{L}_{p}(k_{0},\omega)=0$ and $u^{L,a}_{p}(k_{0},\omega)=0$.}
+\caption{\small Plot of the zero set $u^{L}_{p}(k_{0},\omega)=0$.}
 \label{fig:zerodriftk0}
 \end{figure}
 
-\subsection{Mean Flow Near $z_{c}$}
+At this point, we note that the modification to GLM used above is only relevant near the oscillating surface $z=\epsilon \eta$.  Away from the surface we use the unmodified GLM method, so that the formula we get for the SDV, say $u^{S,a}$, is 
+\[
+u^{S,a}(k_{0},\omega) =  \frac{2\epsilon^{2} \Omega^{2}}{c_{p}-\omega z} \left( 2 +  \frac{\omega}{|k_{0}|(c_{p} - \omega z )} \right)\left|\eta_{1}\right|^{2} e^{2|k_{0}|z} + \mathcal{O}(\epsilon^{3}). 
+\]
+Comparing to the formula derived above, we see the difference between the two formulas is 
+\[
+u^{S} - u^{S,a} =  \frac{2\epsilon^{2} \Omega^{2}\omega}{|k_{0}|\left(c_{p}-\omega z\right)^{2}}\left(1 + \frac{\omega}{|k_{0}|\left(c_{p}-\omega z\right)}\right) \left|\eta_{1}\right|^{2} e^{2|k_{0}|z} + \mathcal{O}(\epsilon^{3}),
+\]
+which essentially vanishes if $\omega=0$ and decays like $e^{2|k_{0}|z}/z^{2}$ as $z\rightarrow -\infty$.  Thus, we see that we should use different estimates for the SVD depending on whether one looks close to the surface $z=\epsilon \eta$ or if one looks at a relatively deep point $|z|\gg |z_{c}|$. 
+
+%As one would expect, our modification of the GLM approach alters the computation of the SDV, which in turn then would markedly shift where the zero set of $u^{L,a}_{p}(k_{0},\omega)$ appears relative to the zero set of $u^{L}_{p}(k_{0},\omega)$.  This is illustrated by comparing the two curves plotted in Figure \ref{fig:zerodriftk0}.  As shown in subsequent sections, the numerical simulations we have developed confirm the prediction of quenched surface drift velocity given by finding $u^{L}_{p}(k_{0},\omega)=0$, thereby validating our generalization of the GLM methodology.  
+
+\subsection{Flow Near the Critical Depth $z_{c}$}
 Taking $k_{0}\omega >0$ so that $-\infty<z_{c}<-1$, it is illuminating to begin to examine what the mean and fluctuation components of the flow are near the critical depth $z_{c}$.  Introducing the interior variable $\tilde{z}$ where
 $$
 \tilde{z} = \frac{1}{\epsilon^{2}}\left(z - z_{c} \right), 
