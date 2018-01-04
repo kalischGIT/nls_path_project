@@ -195,9 +195,9 @@ By expanding and matching terms in the fundamental harmonic $e^{i\theta}$, at $\
 \end{equation}
 and at $\mathcal{O}(\epsilon)$ we find that 
 \[
-c_{g} = \frac{1+3\tilde{\sigma}k_{0}^{2}}{2s\Omega - \omega}.
+c_{g} = \frac{1+3\tilde{\sigma}k_{0}^{2}}{2s\Omega - \omega},
 \]
-We note that Equation (\ref{LDR}) establishes that $\Omega_{+}(k_{0},\omega) > 0$ and $\Omega_{-}(k_{0},\omega) < 0$ for $k_{0}\neq0$.  
+where $s=\mbox{sgn}(k_{0})$.  We note that Equation (\ref{LDR}) establishes that $\Omega_{+}(k_{0},\omega) > 0$ and $\Omega_{-}(k_{0},\omega) < 0$ for $k_{0}\neq0$.  Throughout the remainder of the paper, $\Omega$ always denotes the positive branch $\Omega_{+}$.  
 
 By looking at the second harmonic $e^{2i\theta}$, we find that 
 \[
@@ -290,7 +290,7 @@ For the NLS equation, the case in which $\alpha_{d}$ and $\alpha_{nl}$ have the 
 \eta_{1}(\xi,\tau) = \kappa\beta \sqrt{\frac{2\alpha_{d}}{\alpha_{nl}}}~\mbox{cn}(\beta \xi;\kappa)e^{-i\alpha_{d}\beta^{2}(1-2\kappa^2)\tau},
 \label{cnsolns}
 \end{equation}
-where $0\le\kappa\le1$ is the elliptic modulus.  In the $\kappa \rightarrow 1$ limit, these solutions limit to the `bright' soliton solutions
+where $0\le\kappa\le1$ is the elliptic modulus and $\beta$ is a positive lengthscale parameter.  In the $\kappa \rightarrow 1$ limit, these solutions limit to the `bright' soliton solutions
 \[
 \eta_{1}(\xi,\tau) \rightarrow \beta \sqrt{\frac{2\alpha_{d}}{\alpha_{nl}}}~\mbox{sech}(\beta \xi)e^{i\alpha_{d}\beta^{2}\tau}.
 \]
@@ -331,14 +331,16 @@ Separating variables, applying a Fourier transform in $\xi$, and introducing the
 \]
 This reduces to the classic requirement that MIs are suppressed if the coefficients of dispersion and nonlinearity have opposite signs (i.e.~the defocusing case).  
 
-Figure \ref{fig:miplot} shows the values of $\omega$ and $k_{0}$ for which MIs exist (white areas) or not (black areas) for $\tilde{\sigma}=10^{-3}$.   We use this value for surface tension for the remainder of this paper.  There does not appear to be a value of $\omega$ that suppresses MIs across all wave numbers.  Note that this does not contradict the results in \cite{thomas2012nonlinear} since we are considering both positive and negative values of $k_{0}$.
+Figure \ref{fig:miplot} shows the values of $\omega$ and $k_{0}$ for which MIs exist (white areas) or not (black areas) for $\tilde{\sigma}=10^{-3}$ in figure \ref{fig:miplot} (a), $\tilde{\sigma}=10^{-5}$ in figure \ref{fig:miplot} (b), $\tilde{\sigma}=10^{-5}$ in figure \ref{fig:miplot} (c), and $\tilde{\sigma}=0$ in  figure \ref{fig:miplot} (d).   Note, the scale of the axes changes from figures \ref{fig:miplot} (a) and (b) to (c) and (d).  As can be seen, in the presence of surface tension, there does not appear to be a value of $\omega$ that suppresses MIs across all wave numbers.  This is in constrast to the zero surface tension case, in which if $k_{0}\omega>0$ and the magnitude of the shear is sufficiently large, then the MI is suppressed across all wave numbers.  As can be seen by comparing figures \ref{fig:miplot} (a), (b), and (c), larger surface tension facilitates the transitions between regions in which the MI is or is not supressed for relatively smaller values of carrier wavenumber and shear magnitude.  This expands on the results in \cite{thomas2012nonlinear}, which did not consider the effect of surface tension.  Throughout the rest of the paper we take $\tilde{\sigma}=10^{-5}$ which corresponds to supposing a characteristic wave length $L\sim 1m$.
 \begin{figure}
 \centering
 \begin{tabular}{cc}
 \includegraphics[width=.48\textwidth]{foc_defoc_pos_cut} & \includegraphics[width=.48\textwidth]{foc_defoc_pos_cut_sig_1en5}\\
 (a) & (b)\\
+\includegraphics[width=.48\textwidth]{foc_defoc_pos_cut_sig_1en5_wide} & \includegraphics[width=.48\textwidth]{foc_defoc_pos_cut_sig_0_wide}\\
+(c) & (d)
 \end{tabular}
-\caption{\small {\it MIs exist} - white, {\it MIs suppressed} - black, for $\tilde{\sigma}=10^{-3}$ (a) and $\tilde{\sigma}=10^{-5}$ (b).}
+\caption{\small {\it MIs exist} - white, \small{\it MIs suppressed} - black, for $\tilde{\sigma}=10^{-3}$ (a), $\tilde{\sigma}=10^{-5}$ (b), $\tilde{\sigma}=10^{-5}$ (c), and $\tilde{\sigma}=0$ (d).  Note the change in scale of the axes in (c) and (d) relative to (a) and (b).}
 \label{fig:miplot}
 \end{figure}
 
@@ -346,7 +348,7 @@ Per our convention of taking the fast phase, $\theta(x,t)$, to be
 \[
 \theta(x,t) = k_{0}x + \Omega(k_{0},\omega) t,
 \]
-if $k_{0}\Omega(k_{0},\omega)>0$, then the carrier wave propagates to the left, while if $k_0 \Omega(k_{0},\omega)<0$, it is propagating to the right.  Figures \ref{fig:miplot}(a) and (b) then show that MIs are generally suppressed when the shear current at the surface is co-propagating with respect to the carrier wave with sufficient strength which is inversely related to the carrier wavenumber.  Thus, in order to suppress most MIs, we need either relatively high carrier wave numbers $k_{0}$ for relatively weak shear currents, or relatively strong shear currents for relatively low carrier wave numbers.  The regions in Figures \ref{fig:miplot}(a) and (b) in which counter-propagating sheer currents suppress MIs are more complicated in nature, though one can argue that counter-propagating currents generally exacerbate MIs, especially with increasing shear strength.  
+if $k_{0}\Omega(k_{0},\omega)>0$, then the carrier wave propagates to the left, while if $k_0 \Omega(k_{0},\omega)<0$, it is propagating to the right.  Figures \ref{fig:miplot}(a) and (c) then show that MIs are generally suppressed when the shear current at the surface is co-propagating with respect to the carrier wave with sufficient strength which is inversely related to the carrier wavenumber.  Thus, in order to suppress most MIs, we need either relatively high carrier wave numbers $k_{0}$ for relatively weak shear currents, or relatively strong shear currents for relatively low carrier wave numbers.  The regions in Figures \ref{fig:miplot}(a) and (c) in which counter-propagating sheer currents suppress MIs are more complicated in nature, though one can argue that counter-propagating currents generally exacerbate MIs, especially with increasing shear strength.  
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Derivation of Velocity Formulas}
 In non-dimensional coordinates, the position of a given fluid particle, $(x(t),z(t))$, is defined by the dynamical system 
@@ -423,7 +425,7 @@ R_{1}(\xi,z,\tau) \sim & -\frac{s\Omega}{2\pi}\int_{\mathbb{R}} dk ~ e^{i k \xi}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{The Stokes Drift Velocity}
-We now show how our above approximation schemes can be used in to determine how a background shear current modifies the Stokes drift velocity (SDV).  Note, throughout the remainder of the paper, $\Omega$ always denotes the positive branch $\Omega_{+}$.  Following the Generalized Lagrangian Mean (GLM) formalism presented in \cite{andrews}, for some quantity $\varphi({\bf x},t)$, given an
+We now show how our above approximation schemes can be used in to determine how a background shear current modifies the Stokes drift velocity (SDV).  Following the Generalized Lagrangian Mean (GLM) formalism presented in \cite{andrews}, for some quantity $\varphi({\bf x},t)$, given an
 Eulerian mean operator $\bar{()}$, we define the Lagrangian mean $\bar{()}^{L}$ at a point ${\bf x}$ relative to the disturbance ${\bf y}({\bf x},t)$ to be  
 \[
 \bar{\varphi}^{L}({\bf x},t) = \overline{\varphi({\bf x}+{\bf y}({\bf x},t),t)}.
@@ -704,9 +706,9 @@ In the focusing case, increasing the magnitude of the Jacobi elliptic function s
 Using the solution given in equation \eqref{cnsolns} with $k_0\approx1$ ensures that $\omega = 0$ and $\omega=\pm 1$ are in the focusing regime.   Figure \ref{fig:foc_kap_pt5} shows the paths of particles for three values of $\omega$ found by setting $\epsilon=0.1$, $\kappa=0.5$, and solving the dynamical system for the particle paths up to time $t=1/\epsilon^{2}$.  The carrier profile is propagating to the left in this situation.  Therefore, if $\omega=1.12$, then the shear current is counter-propagating at the surface with respect to the carrier wave while if $\omega=-1$, the current is co-propagating.  The counter-propagating current significantly enhances the leftward horizontal motion of a tracer along the surface as seen by comparing Figures \ref{fig:foc_kap_pt5}(b) and (c) with (a).  This can be explained by examining the values of the SDV and the LDV parameters
 \[
 \begin{array}{lcl}
-\tilde{u}^{S}(1,0) = -0.5179, & & \tilde{u}^{L}(1,0) = -0.5179,\\
-\tilde{u}^{S}(1,1.12) = -10.5051,& & \tilde{u}^{L}(1,1.12) = -5.1109,\\
-\tilde{u}^{S}(1,0) = -0.2779, & & \tilde{u}^{L}(1,-1) = -0.1601,
+\tilde{u}^{S}(1,0) = -0.5222, & & \tilde{u}^{L}(1,0) = -0.5222,\\
+\tilde{u}^{S}(1,1.12) = -10.7373,& & \tilde{u}^{L}(1,1.12) = -5.2195,\\
+\tilde{u}^{S}(1,0) = -0.2836, & & \tilde{u}^{L}(1,-1) = -0.1636,
 \end{array}
 \]
 where the parameter $\tilde{u}^{L}$ is defined to be 

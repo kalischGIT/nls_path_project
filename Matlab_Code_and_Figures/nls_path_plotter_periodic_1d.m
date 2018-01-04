@@ -1,6 +1,6 @@
 function nls_path_plotter_periodic_1d(ep,kval,K,tf)
 
-    sig = 1e-3;
+    sig = 1e-5;
     Tval = 2*ellipke(kval^2);
     X = (-Tval:Tval/K:Tval-Tval/K)'; % Spatial mesh
     
